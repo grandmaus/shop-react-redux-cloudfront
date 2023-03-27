@@ -5,7 +5,7 @@ frameworkVersion: "3"
 provider:
   name: aws
   runtime: nodejs14.x
-  region: eu-west-1
+  region: us-east-1
   # setup profile for AWS CLI.
   # profile: node-aws
 
@@ -19,8 +19,10 @@ plugins:
 
 custom:
   client:
-    bucketName: my-store-app
+    bucketName: astrouski-aws-app
     distributionFolder: dist
+    indexDocument: index.html
+    manageResources: false
   s3BucketName: ${self:custom.client.bucketName}
 
   ## Serverless-single-page-app-plugin configuration:
