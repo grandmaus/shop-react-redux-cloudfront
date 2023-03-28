@@ -1,3 +1,8 @@
+# Deployed versions:
+
+- automated deployment to S3: http://astrouski-aws-app.s3-website-us-east-1.amazonaws.com/
+- automated deployment to cloudFront: https://d2lmim2p05awn2.cloudfront.net/
+
 # React-shop-cloudfront
 
 This is frontend starter project for nodejs-aws mentoring program. It uses the following technologies:
